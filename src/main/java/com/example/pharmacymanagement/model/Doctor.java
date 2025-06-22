@@ -13,5 +13,8 @@ public class Doctor {
     private String name;
     private String specialty;
     private int yearsOfExperience;
+    private String email;
+    private String hospitalAffiliation; // Optional, can be used to link to a hospital or clinic
+
 }
 

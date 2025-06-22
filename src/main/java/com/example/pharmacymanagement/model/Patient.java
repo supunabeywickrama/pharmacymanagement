@@ -12,9 +12,17 @@ public class Patient {
     //private Long id;
     private String ssn;
     private String name;
+    private String country;
     private String address;
+    private String preferredLanguage; // Optional, can be used to store preferred language for communication
     private int age;
+    private String gender;
+    private String email;
+    private String medicalHistory; // Optional, can be used to store patient history
+    private String allergies; // Optional, can be used to store known allergies
 }
+
+
 
 
 
