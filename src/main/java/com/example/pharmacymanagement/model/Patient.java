@@ -9,7 +9,7 @@ import lombok.Data;
 public class Patient {
     @Id
     //@GeneratedValue(strategy = GenerationType.IDENTITY)
-    //1private Long id;
+    //private Long id;
     private String ssn;
     private String name;
     private String address;

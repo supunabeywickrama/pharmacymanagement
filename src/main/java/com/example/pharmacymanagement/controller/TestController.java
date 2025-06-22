@@ -7,7 +7,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 @RequestMapping("/api/test")
 public class TestController {
-    @GetMapping
+    @GetMapping("/")
     public String test() {
         return "Spring Boot is working!";
     }
